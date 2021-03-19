@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>autonomous_arena</name>
+  <version>0.0.0</version>
+  <description>The autonomous_arena package</description>
+  <maintainer email="emirhan@todo.todo">emirhan</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>std_msgs</depend>
+  <depend>gazebo_ros</depend>
+  <exec_depend>gazebo</exec_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <gazebo_ros gazebo_media_path="${prefix}"/>
+    <gazebo_ros gazebo_model_path="${prefix}/models"/>
+  </export>
+</package>
